@@ -130,6 +130,7 @@ public class passwordGenerator extends JFrame implements ActionListener {
 
                 // If any input field is empty, show the "Invalid Input" message
                 invalidInputLabel.setText("Error: Please make sure all fields are filled.");
+                invalidInputLabel.setBounds(210,560,400,50);
                 invalidInputLabel.setForeground(Color.RED);
                 invalidInputLabel.setVisible(true);
 
